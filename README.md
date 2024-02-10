@@ -43,7 +43,7 @@ Das war es.
 
 Less-Dateien anpassen. Danach den Skript 'updateSkin.sh' als root ausführen, um die less-Dateien zu kompilieren.
 
-```sudo ./updateSkin.sh```
+```sudo ./update-skin.sh```
 
 Dieser Skript benutzt die Systemzeit, um die CSS-Dateien mit eine eindeutige ID zu versehen.
 Dieser ID wird an der Hauptdateiname des Skins (LUH-Style.css) angehängt, um das Neuladen der Skin Änderungen vom Browser zu erzwingen.
