@@ -46,10 +46,10 @@ Less-Dateien anpassen. Danach den Skript 'updateSkin.sh' als root ausführen, um
 ```sudo ./update-skin.sh```
 
 Dieser Skript benutzt die Systemzeit, um die CSS-Dateien mit eine eindeutige ID zu versehen.
-Dieser ID wird an der Hauptdateiname des Skins (LUH-Style.css) angehängt, um das Neuladen der Skin Änderungen vom Browser zu erzwingen.
+Dieser ID wird an der Hauptdateiname des Skins `StudIP-ILIAS-Style.css` angehängt, um das Neuladen der Skin Änderungen vom Browser zu erzwingen.
 
 Falls in das Produktive-System kein lessc installiert ist, kann der oben genannte Script nicht ausgeführt werden.
-Daher ist es vorteilhaft, die kompilierte `LUH-Style.css` z.B. auf einem Test System, in einem Tag/Skin-Version hinzuzufügen.
+Daher ist es vorteilhaft, die kompilierte `StudIP-ILIAS-Style.css` z.B. auf einem Test System, in einem Tag/Skin-Version hinzuzufügen.
 
 
 ## Dieser release wurde auf folgende ILIAS Versionen getestet:
