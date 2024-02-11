@@ -2,7 +2,7 @@
 Dieser Skin wurde für die ILIAS Installation auf [studip.ilias.uni-hannover.de](https://studip.ilias.uni-hannover.de/) entwickelt.
 
 ## Version
-* v1.0.0 - [View the CHANGELOG](CHANGELOG.md)
+v1.0.0
 
 
 ## Installation
