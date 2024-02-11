@@ -2,7 +2,7 @@
 Dieser Skin wurde für die ILIAS Installation auf [studip.ilias.uni-hannover.de](https://studip.ilias.uni-hannover.de/) entwickelt.
 
 ## Version
-* v1.0.0
+* v1.0.0 - [View the CHANGELOG](CHANGELOG.md)
 
 
 ## Installation
@@ -20,7 +20,6 @@ Falls das Ordner "skin" nicht vorhanden, dann anlegen:
 
 ```
 mkdir skin
-chown www-data:www-data skin
 cd skin
 ```
 
