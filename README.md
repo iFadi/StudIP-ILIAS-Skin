@@ -4,6 +4,8 @@ Dieser Skin wurde für die ILIAS Installation auf [studip.ilias.uni-hannover.de]
 ## Version
 v1.0.0
 
+## Changelog
+[View the CHANGELOG](CHANGELOG.md)
 
 ## Installation
 
@@ -27,7 +29,7 @@ Nun innerhalb der Skin Ordner werden wir den LUH-Skin installieren, dazu einfach
 
 `git clone https://github.com/iFadi/StudIP-ILIAS-Skin.git`
 
-Dann den entsprechenden Branch bzw. Tag auschecken.
+Dann den entsprechenden Branch bzw. Tag auschecken z.B.:
 
 `git checkout tags/v1.0.0`
 
@@ -40,7 +42,7 @@ Das war es.
 
 ## Für die Implementierung
 
-Less-Dateien anpassen. Danach den Skript 'updateSkin.sh' als root ausführen, um die less-Dateien zu kompilieren.
+Less-Dateien anpassen. Danach den Skript 'update-skin.sh' als root ausführen, um die less-Dateien zu kompilieren.
 
 ```sudo ./update-skin.sh```
 

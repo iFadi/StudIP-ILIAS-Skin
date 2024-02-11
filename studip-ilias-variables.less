@@ -1,62 +1,53 @@
 //== STARTING HERE
-// In this file we add/edit/manage our custom changes
+// In this file we overwrite/edit/manage our custom changes
 //## Our custom local variables
 
 
-//== LUH Colors
+//== Define StudIP-ILIAS variables
 //
-//## These are the main LUH Colors
+//## These are our custom variables for the StudIP-ILIAS-Style
 @il-brand-primary-studip: #28497c;
 @il-brand-primary-studip-menu: #e7ebf1;
-@il-brand-primary: #00509b;
-@il-brand-primary-luh-light: #99b9d8;
-@il-brand-primary-luh-lighter: #ccdceb;
-@il-brand-primary-luh-blue-transparent: rgba(0, 80, 155, .8);
-@il-brand-primary-dark-blue: #003668;
-@il-brand-green-luh: #c8d317;
-@il-brand-green-luh-calendar: #abb24a;
-@il-brand-gray-luh-light: #999999;
-@il-brand-gray-luh-lighter: #cccccc;
-@il-brand-gray-luh-1: #e6e6e6;
-@il-brand-gray-luh-2: #f7f7f7;
+@il-brand-studip-text-color: white;
 @il-icon-size-large: 32px;
 
 
-//== LUH Logo
+
+//== Header
 //
-//## Custom LUH Logo size
-@il-brand-logo-size: 40px;
-@il-brand-logo-top: 25px;
+//## Custom Header Colors and sizes
+@il-standard-page-header-height: 41px;
+@il-metabar-entry-height: 41px;
+@il-avatar-size: @il-icon-size-large;
+
 
 
 //== Mainbar
 //
-//## Custom LUH Mainbar Colors and Button sizes
-@il-maincontrols-mainbar-bg-color: #28497c;
-@il-mainbar-btn-height: 80px;
-@il-mainbar-btn-width: 80px;
-@il-mainbar-btn-color: #28497c;
+//## Custom Mainbar Colors and Button sizes
+@il-standard-page-header-bg-color: @il-brand-primary-studip;
+@il-standard-page-header-page-title-color: white;
 @il-mainbar-btn-bg-color: @il-brand-primary-studip-menu;
-@il-mainbar-btn-color-engaged: white; //@il-neutral-color;
-@il-mainbar-btn-bg-color-engaged: #28497c; //@il-brand-primary;
-@il-mainbar-btn-bg-color-hover: @il-brand-primary;
-@il-main-btn-bulky-label-color-engaged: white;
-@il-mainbar-btn-border: 1px solid #28497c;
-@il-mainbar-btn-label-size: .9rem;
-@il-mainbar-bulky-label-margin-top: 5px;
-@il-mainbar-tools-btn-bg: @il-warning-color;
-@il-mainbar-triggers-bg-color-icon-small: #28497c;
-@il-mainbar-tools-item-gap: 3px;
+@il-mainbar-btn-bg-color-hover: @il-brand-primary-studip;
+@il-mainbar-btn-border: 1px solid @il-brand-primary-studip;
+@il-mainbar-btn-bg-color-engaged: @il-brand-primary-studip;
+@il-mainbar-trigger-icon-filter: hue-rotate(350deg) saturate(8.7%) brightness(177.3%);
 
-// NEW
-@il-standard-page-header-height: 41px;
-@il-metabar-entry-height: 41px;
-@il-standard-page-small-mainbar-height: 41px;
 
-// Avatar
-@il-avatar-size: @il-icon-size-large;
+//== Footer
+//
+//## Custom Footer Colors and sizes
+//** controls background color of the footer.
+@il-footer-bg-color: @il-brand-primary-studip;
+//** controls the color of the text in the footer.
+@il-footer-color:@il-brand-studip-text-color;
+//** controls the padding of the footer.
+@il-footer-padding:0px 0 0px 5px;
+//** controls the height of the footer.
+@il-footer-height: 32px;
+@il-footer-link-button-color: white;
 
 //== Glyphicons Path Fix
 //
-//## for more infor: https://docu.ilias.de/goto_docu_pg_75028_367.html
+//## for more information: https://docu.ilias.de/goto_docu_pg_75028_367.html
 @il-icon-font-path: "../../../../node_modules/bootstrap/fonts/";
