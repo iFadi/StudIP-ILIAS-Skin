@@ -6,6 +6,9 @@ v1.0.1
 
 - [CHANGELOG](CHANGELOG.md)
 
+## Screenshot
+![Screenshot](screenshots/studip-ilias-skin-1.png)
+
 ## Installation
 
 Um das Skin zu installieren, man geht zur {ILIAS Root} installation, z.B.
