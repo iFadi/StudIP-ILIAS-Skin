@@ -1,11 +1,10 @@
 # StudIP-ILIAS Skin
-Dieser Skin wurde für die ILIAS Installation auf [studip.ilias.uni-hannover.de](https://studip.ilias.uni-hannover.de/) entwickelt.
+Dieser Skin wurde an das [StudIP](https://www.studip.de/) Style angepasst.
 
 ## Version
 v1.0.0
 
-## Changelog
-[View the CHANGELOG](CHANGELOG.md)
+- [CHANGELOG](CHANGELOG.md)
 
 ## Installation
 
