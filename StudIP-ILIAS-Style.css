@@ -20028,6 +20028,9 @@ footer {
 .il-maincontrols-footer .il-footer-content div {
   display: inline-block;
 }
+.il-maincontrols-footer .il-footer-content div a {
+  color: white;
+}
 .il-maincontrols-footer .il-footer-links ul {
   list-style: none;
   padding: 0px;
