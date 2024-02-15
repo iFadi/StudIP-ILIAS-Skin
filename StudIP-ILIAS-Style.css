@@ -10042,7 +10042,7 @@ footer {
   color: #e7ebf1;
 }
 .focus_hovered_engaged_slate_trigger_mixin .icon {
-  filter: invert(50%);
+  filter: invert(0.7);
 }
 .focus_hovered_engaged_slate_trigger_mixin .bulky-label {
   color: #e7ebf1;
@@ -10152,7 +10152,7 @@ footer {
 }
 .il-mainbar-triggers .btn-bulky.engaged .icon,
 .il-mainbar-triggers .il-link.link-bulky.engaged .icon {
-  filter: invert(50%);
+  filter: invert(0.7);
 }
 .il-mainbar-triggers .btn-bulky.engaged .bulky-label,
 .il-mainbar-triggers .il-link.link-bulky.engaged .bulky-label {
@@ -10169,7 +10169,7 @@ footer {
 }
 .il-mainbar-triggers .btn-bulky:focus-visible .icon,
 .il-mainbar-triggers .il-link.link-bulky:focus-visible .icon {
-  filter: invert(50%);
+  filter: invert(0.7);
 }
 .il-mainbar-triggers .btn-bulky:focus-visible .bulky-label,
 .il-mainbar-triggers .il-link.link-bulky:focus-visible .bulky-label {
@@ -10187,7 +10187,7 @@ footer {
 }
 .il-mainbar-triggers .btn-bulky:hover .icon,
 .il-mainbar-triggers .il-link.link-bulky:hover .icon {
-  filter: invert(50%);
+  filter: invert(0.7);
 }
 .il-mainbar-triggers .btn-bulky:hover .bulky-label,
 .il-mainbar-triggers .il-link.link-bulky:hover .bulky-label {
@@ -10234,7 +10234,7 @@ footer {
   }
   .il-mainbar-triggers .btn-bulky.engaged .icon,
   .il-mainbar-triggers .il-link.link-bulky.engaged .icon {
-    filter: invert(50%);
+    filter: invert(0.7);
   }
   .il-mainbar-triggers .btn-bulky.engaged .bulky-label,
   .il-mainbar-triggers .il-link.link-bulky.engaged .bulky-label {
