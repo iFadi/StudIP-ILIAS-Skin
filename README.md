@@ -44,7 +44,7 @@ Das war es.
 
 ## Für die Implementierung
 
-Less-Dateien anpassen. Danach den Skript 'update-skin.sh' als root ausführen, um die less-Dateien zu kompilieren.
+Less-Dateien anpassen. Danach den Skript `update-skin.sh` als root ausführen, um die less-Dateien zu kompilieren.
 
 ```sudo ./update-skin.sh```
 
