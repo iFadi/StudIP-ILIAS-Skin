@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.0.3...v1.0.4) (2024-02-15)
+
+
+### Bug Fixes
+
+* hotfix ([02cc36f](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/02cc36fd17f067fa44cd7936ada918820ca3a389))
+
 ## [1.0.3](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.0.2...v1.0.3) (2024-02-15)
 
 
