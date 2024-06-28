@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.0](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.0.4...v1.1.0) (2024-06-28)
+
+
+### Features
+
+* added mainbar/metabar button  border-left effect ([416f934](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/416f93453f7dfda31009561a8b94b8531175bd3c))
+
+
+### Bug Fixes
+
+* code refactoring ([0c24459](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/0c24459aa464fc5239278eb7e389aa254f6f38fb))
+* fixes [#6](https://github.com/iFadi/StudIP-ILIAS-Skin/issues/6) ([2c757d0](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/2c757d0c42a31ef11fbacc628d88f2f1d49f04d2))
+* new release ([306c1ff](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/306c1ff3189533e4484353bf48e759beb5f9dd20))
+* Update README ([9a32422](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/9a324222532f253c94f0d1db9f30632207e05c18))
+
 ## [1.0.4](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.0.3...v1.0.4) (2024-02-15)
 
 
