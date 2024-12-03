@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.1.0...v1.1.1) (2024-12-03)
+
+
+### Bug Fixes
+
+* recompile for ILIAS 8.16 ([9ed7de1](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/9ed7de1a68cb540408980338a322c1897305d1d5))
+
 ## [1.1.0](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.0.4...v1.1.0) (2024-06-28)
 
 
