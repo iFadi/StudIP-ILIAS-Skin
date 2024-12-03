@@ -56,6 +56,6 @@ Daher ist es vorteilhaft, die kompilierte `StudIP-ILIAS-Style.css` z.B. auf eine
 
 
 ## Dieser release wurde auf folgende ILIAS Versionen getestet:
-* v8.8
+* v8.16
 
 <strong>WICHTIG: Der Skin sollte für jede ILIAS Minor/Major Release auf funktionalität getestet werden.</strong>
