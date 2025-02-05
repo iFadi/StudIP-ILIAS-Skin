@@ -120,16 +120,25 @@ div.il-system-infos {
 	a {
 		display: block; // so keyboard focus surrounds logo
 	}
+	// Stud.IP Skin changes start:
+	img {
+		display: none;
+	}
+	// Stud.IP Skin changes end
 }
 
 .il-pagetitle {
-	font-weight: $il-font-weight-bold;
+	// Stud.IP Skin changes start:
+	font-weight: 600; // $il-font-weight-bold;
+	// Stud.IP Skin changes end
 	display: flex;
-	font-size: $il-font-size-large;
-	align-items: center;
-	min-height: 100%;
-	padding-left: 35px; // dynamic value desirable
-	color: $il-standard-page-header-page-title-color;
+	// Stud.IP Skin changes start:
+	font-size: 14px; 		// $il-font-size-large;
+	align-items: flex-end; 	// center;
+	// min-height: 100%;
+	padding-left: 5px; 		// 35px; // dynamic value desirable
+	color: white; 		   // $il-standard-page-header-page-title-color;
+	// Stud.IP Skin changes end
 }
 
 .il-header-locator{

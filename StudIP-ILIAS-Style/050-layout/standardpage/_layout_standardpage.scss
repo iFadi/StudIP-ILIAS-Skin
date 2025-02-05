@@ -3,10 +3,13 @@
 @use "../../010-settings/" as *;
 @use "../../010-settings/legacy-settings/legacy-settings_symbol" as t-symbol;
 @use "../basics" as *;
+@use "../../_studip-ilias-variables.scss" as studip;
 
 $il-standard-page-border-light-color: $il-main-border-color;
 
-$il-avatar-size: t-symbol.$il-icon-size-large;
+// Stud.IP Skin changes start:
+$il-avatar-size: studip.$il-avatar-size; // t-symbol.$il-icon-size-large;
+// Stud.IP Skin changes end
 $il-avatar-inner-mobile-size: $il-avatar-size * 0.5;
 
 //** controls margin from the footer to the main content, increase/decrase depending on the content (default, space for 4 lines).

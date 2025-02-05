@@ -1,6 +1,7 @@
 @use "../../../010-settings/"as *;
 @use "../../../050-layout/basics" as *;
 @use "../../../050-layout/standardpage/" as *;
+@use "../../../_studip-ilias-variables.scss" as studip;
 
 //== Footer
 
@@ -10,7 +11,9 @@ $il-footer-padding: 10px 0 10px 5px;
 footer{
 	text-align: left;
 	background-color: $il-footer-bg-color;
-	padding: $il-footer-padding;
+	// Stud.IP Skin changes start:
+	padding: studip.$il-footer-padding;
+	// Stud.IP Skin changes end
 	border-top: 1px solid $il-main-border-color;
 }
 .il-maincontrols-footer {

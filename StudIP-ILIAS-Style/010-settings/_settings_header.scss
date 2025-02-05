@@ -1,9 +1,12 @@
 @use "./_settings_color-palette.scss" as s-color;
+@use "../_studip-ilias-variables.scss" as studip;
 
 //** header
 $il-standard-page-logo-height: 45px !default;
 $il-standard-page-logo-width: 45px !default;
-$il-standard-page-header-height: 60px !default;
-$il-standard-page-header-bg-color: s-color.$il-main-bg !default;
+// Stud.IP Skin changes start:
+$il-standard-page-header-height: studip.$il-standard-page-header-height;        //60px !default;
+$il-standard-page-header-bg-color: studip.$il-standard-page-header-bg-color;    //s-color.$il-main-bg !default;
 
-$il-standard-page-header-page-title-color: s-color.$il-text-color !default;
+$il-standard-page-header-page-title-color: studip.$il-standard-page-header-page-title-color; // s-color.$il-text-color !default;
+// Stud.IP Skin changes end

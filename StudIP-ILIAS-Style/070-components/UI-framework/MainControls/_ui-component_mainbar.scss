@@ -6,6 +6,7 @@
 @use "../../../050-layout/basics" as *;
 @use "../../../050-layout/standardpage/" as *;
 @use "../../../070-components/legacy/component_screen-reader-only" as *;
+@use "../../../_studip-ilias-variables.scss" as studip;
 
 // MAINBAR VARIABLES
 $il-mainbar-btn-padding: 0;
@@ -13,7 +14,9 @@ $il-mainbar-btn-label-icon-gap: $il-padding-xs-vertical;
 
 $il-mainbar-btn-border-radius: $il-border-radius-base;
 
-$il-mainbar-btn-border: 1px solid $il-standard-page-border-light-color;
+// Stud.IP Skin changes start:
+$il-mainbar-btn-border: studip.$il-mainbar-btn-border; //1px solid $il-standard-page-border-light-color;
+// Stud.IP Skin changes end
 $il-mainbar-btn-label-size: $il-font-size-xsmall;
 $il-mainbar-trigger-icon-size: 25px;
 $il-mainbar-remove-tools-btn-height: 45px;
@@ -129,6 +132,9 @@ $il-slate-bulky-link-padding: $il-slate-bulky-padding-vertical $il-padding-base-
 			}
 			background-color: if($hover-or-engaged == "hover", $il-mainbar-btn-bg-color-hover, $il-mainbar-btn-bg-color-engaged);
 			color: if($hover-or-engaged == "hover", $il-mainbar-btn-color-hover, $il-mainbar-btn-color-engaged);
+			// Stud.IP Skin changes start:
+			border-left: if($hover-or-engaged == "hover", 4px solid studip.$il-brand-primary-studip-menu, none);
+			// Stud.IP Skin changes end
 			.glyph{
 				color: if($hover-or-engaged == "hover", $il-mainbar-btn-color-hover, $il-mainbar-btn-color-engaged);
 			}
