@@ -25,6 +25,13 @@ footer{
 	    display: inline-block;
 	}
 
+	// Stud.IP Skin changes start:
+	.il-footer-content div a {
+		color: $il-footer-link-color;
+	}
+	// Stud.IP Skin changes end
+	
+
 	.il-footer-links {
 		ul {
 			list-style: none;

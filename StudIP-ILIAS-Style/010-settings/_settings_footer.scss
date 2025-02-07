@@ -2,8 +2,8 @@
 @use "../_studip-ilias-variables.scss" as studip;
 
 //** footer
-$il-footer-link-hover-color: s-color.$il-link-hover-color !default;
 // Stud.IP Skin changes start:
+$il-footer-link-hover-color: studip.$il-footer-link-button-color; //s-color.$il-link-hover-color !default;
 $il-footer-link-color: studip.$il-footer-link-button-color;     //s-color.$il-link-color !default;
 $il-footer-bg-color: studip.$il-brand-primary-studip;           // s-color.$il-main-bg !default;
 $il-footer-color: studip.$il-footer-link-button-color;          //s-color.$il-text-color !default;
