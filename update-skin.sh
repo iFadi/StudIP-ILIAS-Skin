@@ -11,10 +11,10 @@ sed -i -e "s/$id/$now/g" template.xml
 echo "Version-id in template.xml is set to $now"
 echo "--------------------"
 echo "Compile sass files:"
-echo "Remove the old css-File studip-ilias-style.css..."
-sudo rm StudIP-ILIAS-Style/studip-ilias-style.css
+echo "Remove the old css-File StudIP-ILIAS-Style.css..."
+sudo rm StudIP-ILIAS-Style/StudIP-ILIAS-Style.css
 echo "Compile..."
-sudo sass StudIP-ILIAS-Style/studip-ilias-style.scss  StudIP-ILIAS-Style/studip-ilias-style.css
+sudo sass StudIP-ILIAS-Style/StudIP-ILIAS-Style.scss  StudIP-ILIAS-Style/StudIP-ILIAS-Style.css
 #sudo chown www-data:www-data studip-ilias-style.css
 #sudo chown www-data:www-data template.xml
 echo "...done!"
