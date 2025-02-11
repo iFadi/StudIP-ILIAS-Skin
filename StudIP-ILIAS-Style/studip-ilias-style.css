@@ -6546,9 +6546,6 @@ footer {
 .il-maincontrols-footer .il-footer-content div:not(.c-tooltip) {
   display: inline-block;
 }
-.il-maincontrols-footer .il-footer-content div a {
-  color: white;
-}
 .il-maincontrols-footer .il-footer-links ul {
   list-style: none;
   padding: 0px;
@@ -6580,6 +6577,9 @@ footer {
 }
 .il-maincontrols-footer .il-footer-permanent-url {
   margin-right: 3px;
+}
+.il-maincontrols-footer .il-footer-permanent-url .btn-link {
+  color: white;
 }
 .il-maincontrols-footer .il-footer-text {
   margin: 3px 3px 6px 0px;
