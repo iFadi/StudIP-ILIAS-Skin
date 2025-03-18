@@ -15,7 +15,8 @@ echo "Remove the old css-File StudIP-ILIAS-Style.css..."
 sudo rm StudIP-ILIAS-Style/StudIP-ILIAS-Style.css
 echo "Compile..."
 sudo sass StudIP-ILIAS-Style/StudIP-ILIAS-Style.scss  StudIP-ILIAS-Style/StudIP-ILIAS-Style.css
-#sudo chown www-data:www-data studip-ilias-style.css
+#sudo chown www-data:www-data StudIP-ILIAS-Style.css
 #sudo chown www-data:www-data template.xml
 echo "...done!"
 echo "--------------------"
+ 
