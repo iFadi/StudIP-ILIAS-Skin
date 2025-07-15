@@ -1,0 +1,17 @@
+@use "./settings_color-palette" as s;
+@use "../_studip-ilias-variables.scss" as studip;
+
+// Stud.IP Skin changes start:
+$il-mainbar-btn-color: studip.$il-mainbar-btn-color;        //s.$il-main-bg !default;
+$il-mainbar-btn-bg-color: studip.$il-mainbar-btn-bg-color;  //s.$il-neutral-color !default;
+
+$il-mainbar-btn-color-hover: studip.$il-mainbar-btn-color-hover;        //s.$il-neutral-color !default;
+$il-mainbar-btn-bg-color-hover: studip.$il-mainbar-btn-bg-color-hover;  //s.$il-main-bg !default;
+
+$il-mainbar-btn-color-engaged: studip.$il-mainbar-btn-color-engaged;        //s.$il-neutral-color !default;
+$il-mainbar-btn-bg-color-engaged: studip.$il-mainbar-btn-bg-color-engaged;  //s.$il-main-bg !default;
+
+$il-mainbar-btn-icon-filter: invert(50%) !default;                              // brightness(0) invert(1) !default;
+$il-mainbar-btn-hover-icon-filter: studip.$il-mainbar-trigger-icon-filter;      // brightness(0) invert(1) !default; // invert(50%) !default;
+$il-mainbar-btn-engaged-icon-filter: studip.$il-mainbar-trigger-icon-filter;    //brightness(0) invert(1) !default; // invert(50%) !default;
+// Stud.IP Skin changes end
