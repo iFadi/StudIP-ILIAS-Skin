@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.1.1...v1.2.0) (2025-07-17)
+
+
+### Features
+
+* refactor skin to simple mode ([5ba6b7d](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/5ba6b7d775559312964c74beff96e0ae1c10614c))
+
+
+### Bug Fixes
+
+* renamed style because case-senetive ([d08ac93](https://github.com/iFadi/StudIP-ILIAS-Skin/commit/d08ac934da58c6ca16f288d255ae160c6f85246c))
+
 ## [1.1.1](https://github.com/iFadi/StudIP-ILIAS-Skin/compare/v1.1.0...v1.1.1) (2024-12-03)
 
 
