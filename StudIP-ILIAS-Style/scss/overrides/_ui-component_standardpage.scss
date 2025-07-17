@@ -1,0 +1,24 @@
+// Overrides for the standard page UI component in StudIP ILIAS style
+// Hide default logo
+.il-logo img {
+  display: none;
+}
+
+// Override page title style
+.il-pagetitle {
+  font-weight: 600; // $il-font-weight-bold;
+  font-size: 14px;  // $il-font-size-large;
+  align-items: flex-end; // instead of center
+  min-height: 0;
+  padding-left: 5px; // instead of 35px
+  color: white; // overrides $il-standard-page-header-page-title-color;
+}
+
+.il-avatar.il-avatar-letter span.abbreviation {
+  font-weight: 300;
+  text-transform: inherit;
+  font-size: 14px;
+  line-height: 1;
+  position: relative;
+  top: 7px;
+}

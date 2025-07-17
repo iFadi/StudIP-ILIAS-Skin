@@ -1,0 +1,18 @@
+@use "../studip-ilias-variables.scss" as studip;
+
+footer {
+  text-align: left;
+  background-color: studip.$il-footer-bg-color;
+  padding: studip.$il-footer-padding;
+  border-top: 1px solid studip.$il-mainbar-btn-color; // or any base color
+}
+
+.il-maincontrols-footer {
+  color: studip.$il-footer-color;
+
+  .il-footer-permanent-url {
+    .btn-link {
+      color: studip.$il-footer-link-button-color;
+    }
+  }
+}
