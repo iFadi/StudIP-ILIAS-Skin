@@ -34,7 +34,7 @@ if [[ -z "$base_path" ]]; then
     if [[ "$env" == "dev" ]]; then
         base_path="/ilias-studip/"
     else
-        base_path="/"
+        base_path=""
     fi
     echo "ℹ️  No base path provided, using default: $base_path"
 else

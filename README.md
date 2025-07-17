@@ -3,7 +3,6 @@ Dieser Skin wurde an das [StudIP](https://www.studip.de/) Style angepasst.
 
 ## Version
 v1.2.0
-v1.1.1
 
 - [CHANGELOG](CHANGELOG.md)
 

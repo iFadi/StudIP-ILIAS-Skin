@@ -6,7 +6,7 @@
 // Define the base path for static files
 // Default: "/" for production
 // This value is dynamically replaced in dev by the update script
-$base-path: "/";
+$base-path: "";
 
 // Construct font paths based on the base path
 $web-font-path: "#{$base-path}/templates/default/fonts/";
