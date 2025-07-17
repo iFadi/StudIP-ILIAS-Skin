@@ -1,0 +1,7 @@
+@use "../studip-ilias-variables" as studip;
+
+.avatar,
+.il-avatar {
+  width: studip.$il-avatar-size;
+  height: studip.$il-avatar-size;
+}

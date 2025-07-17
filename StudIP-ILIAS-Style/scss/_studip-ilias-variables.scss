@@ -1,0 +1,41 @@
+//== STARTING HERE
+// This file contains custom variables for the StudIP-ILIAS-Style.
+//## Our custom local variables
+$il-brand-primary-studip: #28497c;
+$il-brand-primary-studip-menu: #e7ebf1;
+$il-brand-studip-text-color: white;
+$il-icon-size-large: 32px;
+
+
+//== Header
+//
+//## Custom Header Colors and sizes
+$il-standard-page-header-height: 41px;
+$il-metabar-entry-height: 41px;
+$il-avatar-size: $il-icon-size-large;
+$il-standard-page-header-bg-color: $il-brand-primary-studip;
+$il-standard-page-header-page-title-color: white;
+
+
+//== Mainbar
+//
+//## Custom Mainbar Colors and Button sizes
+$il-mainbar-btn-border: 1px solid $il-brand-primary-studip;
+$il-mainbar-btn-bg-color: $il-brand-primary-studip-menu;
+$il-mainbar-btn-bg-color-hover: $il-brand-primary-studip;
+$il-mainbar-btn-bg-color-engaged: $il-brand-primary-studip;
+$il-mainbar-btn-color: $il-brand-primary-studip;
+$il-mainbar-btn-color-hover: $il-brand-primary-studip-menu;
+$il-mainbar-btn-color-engaged: $il-brand-primary-studip-menu;
+$il-mainbar-trigger-icon-filter: invert(0.6);
+
+
+//== Footer
+//
+//## Custom Footer Colors and sizes
+$il-footer-bg-color: $il-brand-primary-studip;
+$il-footer-color:$il-brand-studip-text-color;
+$il-footer-padding:0px 0 0px 5px;
+$il-footer-height: 32px;
+$il-footer-link-button-color: white;
+

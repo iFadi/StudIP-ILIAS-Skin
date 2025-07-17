@@ -1,0 +1,55 @@
+// --------------------------------------------
+// StudIP-ILIAS-Style.scss
+// Custom ILIAS skin styles
+// --------------------------------------------
+
+// Define the base path for static files
+// Default: "/" for production
+// This value is dynamically replaced in dev by the update script
+$base-path: "/";
+
+// Construct font paths based on the base path
+$web-font-path: "#{$base-path}/templates/default/fonts/";
+$icon-font-path: "#{$base-path}/templates/default/fonts/bootstrap/";
+$background-images-path: "#{$base-path}/templates/default/images/";
+
+@use "studip-ilias-variables" as studip;
+
+// Use delos and only override what is allowed via !default
+@use "../../../../../../templates/default/delos" as delos with (
+  $il-web-font-path: $web-font-path,
+  $il-icon-font-path: $icon-font-path,
+  $il-background-images-path: $background-images-path,
+
+  $il-standard-page-logo-height: 45px,
+  $il-standard-page-logo-width: 45px,
+  $il-standard-page-header-height: studip.$il-standard-page-header-height,
+  $il-standard-page-header-bg-color: studip.$il-standard-page-header-bg-color,
+  $il-standard-page-header-page-title-color: studip.$il-standard-page-header-page-title-color,
+
+  $il-footer-link-hover-color: studip.$il-footer-link-button-color,
+  $il-footer-link-color: studip.$il-footer-link-button-color,
+  $il-footer-bg-color: studip.$il-brand-primary-studip,
+  $il-footer-color: studip.$il-footer-link-button-color,
+  $il-footer-height: studip.$il-footer-height,
+
+  $il-mainbar-btn-color: studip.$il-mainbar-btn-color,
+  $il-mainbar-btn-bg-color: studip.$il-mainbar-btn-bg-color,
+  $il-mainbar-btn-color-hover: studip.$il-mainbar-btn-color-hover,
+  $il-mainbar-btn-bg-color-hover: studip.$il-mainbar-btn-bg-color-hover,
+  $il-mainbar-btn-color-engaged: studip.$il-mainbar-btn-color-engaged,
+  $il-mainbar-btn-bg-color-engaged: studip.$il-mainbar-btn-bg-color-engaged,
+  $il-mainbar-btn-hover-icon-filter: studip.$il-mainbar-trigger-icon-filter,
+  $il-mainbar-btn-engaged-icon-filter: studip.$il-mainbar-trigger-icon-filter,
+  $il-mainbar-btn-icon-filter: invert(50%),
+
+);
+
+
+// Custom overrides
+@use "overrides/ui-component_standardpage";
+@use "overrides/ui-component_footer";
+@use "overrides/ui-component_mainbar";
+@use "overrides/layout_standardpage";
+
+

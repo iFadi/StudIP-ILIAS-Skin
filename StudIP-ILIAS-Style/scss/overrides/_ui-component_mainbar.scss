@@ -1,0 +1,24 @@
+@use "../studip-ilias-variables.scss" as studip;
+
+// MAINBAR STUD.IP OVERRIDES
+
+$il-mainbar-btn-border: studip.$il-mainbar-btn-border; //1px solid $il-standard-page-border-light-color;
+
+.il-mainbar-triggers .btn-bulky, .il-mainbar-triggers .il-link.link-bulky, .il-mainbar-tools-button .btn-bulky, .il-mainbar-tools-button .il-link.link-bulky, .il-mainbar-tool-trigger-item .btn-bulky, .il-mainbar-tool-trigger-item .il-link.link-bulky, .il-maincontrols-metabar > li > .btn-bulky, .il-maincontrols-metabar > li > .il-link.link-bulky {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #28497c;
+  border-radius: 0px;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 1px;
+  font-size: 0.625rem;
+  line-height: 0.83125rem;
+}
+
+.il-mainbar-triggers .btn-bulky:hover, .il-mainbar-triggers .il-link.link-bulky:hover {
+  transition: all 0.15s ease-in;
+  background-color: #28497c;
+  color: #e7ebf1;
+  border-left: 4px solid #e7ebf1;
+}
